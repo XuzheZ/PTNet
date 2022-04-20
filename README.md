@@ -5,10 +5,14 @@ PTNet: A High-Resolution Infant MRI Synthesizer Based on Transformer
 Xuzhe Zhang<sup>1</sup>, Xinzi He<sup>1</sup>, Jia Guo<sup>2</sup>, Nabil Ettehadi<sup>1</sup>, Natalie Aw<sup>2</sup>, David Semanek<sup>2</sup>, Jonathan Posner<sup>2</sup>, Andrew Laine<sup>1</sup>, Yun Wang<sup>2</sup>  
  <sup>1</sup>Columbia University Department of Biomedical Engineering, <sup>2</sup>CUMC Department of Psychiatry   
 
+## Reminder:
+
+This repo contains the code of our first version preprint paper. This version of PTNet is only designed for pure MAE/MSE loss. **Combining it with adversarial training will significantly impair performance.** If you want to integrate an adversarial training framework, please refer to our **updated version** for the journal paper which introduces substantial improvements (e.g., 3D version, perceptual and adversarial losses).
+https://github.com/XuzheZ/PTNet3D
+
 ## Usage and Demo
 
-Coming Soon
-
+To synthesize high resolution infant brain MRI.
 
 ## Prerequisites
 - Linux 
@@ -18,16 +22,14 @@ Coming Soon
 ## Getting Started
 ### Installation
 
-coming soon
-
+git clone https://github.com/XuzheZ/PTNet.git
 
 ### Testing
 coming soon
 
 
 ### Dataset
-coming soon
-
+In our first version preprint paper, we conducted experiments only on dHCP dataset (http://www.developingconnectome.org/), For more challenging longitudinal tasks, please refer to our updated version for the journal paper: https://github.com/XuzheZ/PTNet3D
 
 ### Training
 coming soon
