@@ -7,6 +7,8 @@ Xuzhe Zhang<sup>1</sup>, Xinzi He<sup>1</sup>, Jia Guo<sup>2</sup>, Nabil Etteha
 
 ## Reminder:
 
+This 2D-only PTNet repo has been deprecated. Please visit our latest [repo](https://github.com/XuzheZ/PTNet3D) containing both 2D and 3D versions with a better data sampling strategy. 
+
 This repo contains the code of our first version preprint paper. This version of PTNet is only designed for pure MAE/MSE loss. **Combining it with adversarial training will significantly impair performance.** If you want to integrate an adversarial training framework, please refer to our **updated version** for the journal paper which introduces substantial improvements (e.g., 3D version, perceptual and adversarial losses).
 https://github.com/XuzheZ/PTNet3D
 
